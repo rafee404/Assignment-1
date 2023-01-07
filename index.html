@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/26f434f64b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>New-Year-New-Me</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="home">
+        <div class="banner">
+          <h1 class="headline">We are the authors of our destinies</h1>
+          <p class="caption" id="p1">
+            Each new year offers an exciting opportunity for a fresh start and
+            new beginnings, which is probably why we all look forward to New
+            Year's Eve and New Year's Day so much.
+          </p>
+          <a href="#id_name"><button class="contact">Contact Us</button></a>
+        </div>
+      </div>
+    </header>
+
+    <!-- header finished -->
+
+    <main>
+      <!-- section 1 -->
+      <div class="second">
+        <img id="confused" src="./Assets/man.png" alt="a confused man" />
+        <div class="secondbanner">
+          <h2 class="headline">My failures of previous year</h2>
+          <p class="caption" id="p2">
+            Personal failings are things you have complete control on but that,
+            for whatever reason, you fail to get a handle on. Personal failings
+            have to do with you, not someone or something else. The good news is
+            that this also means you hold power to address them.
+          </p>
+          <ul class="caption">
+            <li>
+              <span class="tick"
+                ><img src="./Assets/check-mark.png" alt="" /></span
+              >Receiving poor or failing test grades.
+            </li>
+            <li>
+              <span class="tick"
+                ><img src="./Assets/check-mark.png" alt="" /></span
+              >Became fat by eating unhealthy foods.
+            </li>
+            <li>
+              <span class="tick"
+                ><img src="./Assets/check-mark.png" alt="" /></span
+              >Losing a client and money.
+            </li>
+            <li>
+              <span class="tick"
+                ><img src="./Assets/check-mark.png" alt="" /></span
+              >Interviewing for a position but not securing a job offer.
+            </li>
+            <li>
+              <span class="tick"
+                ><img src="./Assets/check-mark.png" alt="" /></span
+              >Taking on too much/over-promising.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="card">
+        <div class="head">
+          <h2 class="plans" id="myplans">My Plans</h2>
+        </div>
+        <div class="flexbox-card">
+          <div class="flexbox-item flexbox-item-1">
+            <img class="icons-plan" src="./Assets/exercise.png" alt="" />
+            <h3 class="plans">Exercise More</h3>
+            <p class="planning">Exercise more and stay fit and healthy</p>
+          </div>
+          <div class="flexbox-item flexbox-item-2">
+            <img class="icons-plan" src="./Assets/social-media.png" alt="" />
+            <h3 class="plans">Social Media</h3>
+            <p class="planning">Spend less time on social media</p>
+          </div>
+          <div class="flexbox-item flexbox-item-3">
+            <img class="icons-plan" src="./Assets/coding.png" alt="" />
+            <h3 class="plans">Web Development</h3>
+            <p class="planning">Learn new skills for a better career</p>
+          </div>
+          <div class="flexbox-item flexbox-item-4">
+            <img class="icons-plan" src="./Assets/virtual-tour.png" alt="" />
+            <h3 class="plans">Travel More</h3>
+            <p class="planning">Take a solo trip and explore the world</p>
+          </div>
+        </div>
+      </div>
+      <!-- section 1 finished -->
+
+      <!-- gradient box -->
+      <div class="box">
+        <div class="gradient"></div>
+        <h2>Always Keep a positive mindset</h2>
+        <button class="call">Call Now</button>
+      </div>
+      <!-- gradient box finished -->
+
+      <!-- about us -->
+      <div class="form-send">
+        <div class="send-us">
+          <h3 class="title-form">Send us a message:</h3>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input required="true"
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="First Name"
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              required="true"
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Last Name"
+            />
+
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="prefer">Prefer not to say</option>
+            </select>
+          
+            <textarea required="true" name="msg" id="msg"  placeholder="Type Your Message Here..."></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <!-- main body finished -->
+
+    <footer>
+      <div class="foot">
+        <div class="foot-left">
+          <h3>Future</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
+            quibusdam magnam non explicabo ipsam optio eos unde cum quam et
+            soluta veritatis rem, earum voluptate mollitia sapiente asperiores
+            nesciunt!
+          </p>
+          <p>Email : info@gmail.com</p>
+          <p>Phone : 01700 00 00 00</p>
+          <div class="social">
+            <img src="./Assets/facebook.png" alt="" />
+            <img src="./Assets/instagram.png" alt="" />
+            <img src="./Assets/twitter.png" alt="" />
+            <img src="./Assets/youtube.png" alt="" />
+          </div>
+        </div>
+        <form class="foot-right" action="#">
+          <label class="mail-head" for="mail"
+            >Subscribe to our newsletter</label
+          >
+          <input
+            type="email"
+            id="mail"
+            name="email"
+            placeholder="Enter Your Email"
+          />
+          <input type="submit" value="Subscribe" />
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
